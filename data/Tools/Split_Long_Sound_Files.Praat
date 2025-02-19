@@ -1,16 +1,15 @@
 # This Praat script will split long wav files into small ones. 
-# 
+# This Praat is based on Pengfei Shao, used by Zixuan Jia
 # This script is distributed under the GNU General Public License.
-# 博客说明：https://blog.csdn.net/shaopengfei/article/details/109097404
 # Copyright 2020.04.17 feelins[feipengshao@163.com] 
 
 
-
+#Modify the input directory and output directory, and tier number
 form dialogue
 	comment Please input the source wav and textgrid files:
-	text input_directory LongWavToDo_1\
+	text input_directory LongWavToDo_1/
 	comment Please input the result wav files:
-	text output_directory small_wavs_1\
+	text output_directory small_wavs_1/
 	comment Please input the mark symbols tier:
 	positive tier_number 1
 	sentence mark_string 
