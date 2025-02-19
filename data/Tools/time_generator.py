@@ -1,6 +1,10 @@
 import os
+# Configure a virtual environment for Pandas
 import pandas as pd
 
+# This script is used for spliting the Interval_Mandarinpilot.csv (elicited the interval based on the textgrids of the whole folder) into small 
+# .csv files based on speaker and condition.
+# This script can be directly used by changing the input_csv_file and output_folder
 
 def process_csv(input_csv, output_folder):
     """
