@@ -4,7 +4,9 @@ import datetime, csv
 import os
 import re
 
-##
+## This python script is used for extracting f0 and timepoint based on the pYIN algorithm. 
+## This script can be used directly by setting input folder path and output folder path in line 54  & 55 
+
 def get_f0(audiofilepath, output_folder):
     sr_target = 44100  # 目标采样率
     time_step = 0.005  # 每 0.005 秒采样一次 f0
